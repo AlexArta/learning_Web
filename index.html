@@ -3,91 +3,139 @@
 <head>
     <meta charset="UTF-8">
     
+
+
     <title>Document</title>
+
+    <link href="styles.css", rel="stylesheet"/>
 </head>
 <body>
-    <img src="Ded.jpg", width="200", alt="тут моя фотка">
-    <h1>Артамонов Александр</h1>
 
-    <p><em>Я основатель компании <strong> Questroom </strong></em></p>
+<div class="container">
+    <div class="info">
+        <img src="Sasha srs.jpg", alt="тут моя фотка"
+        class="avatar">
 
-    <p>Я очень хочу улететь куда-нибудь и жить за границей</p>
+        <div class="info-text">
+            <!-- Имя Фамилия -->
+            <h1><strong>Aлександр</strong> Артамонов </h1>
 
-    <hr>
+            <p<em><strong> Frontend-Developer </strong></em></p>
 
-    <h2>Мои регулярные мученики</h2>
-    <ul type ="square"> 
-        <li> Лиза: </li>
-        <li> Вадим: </li>
-        <li><a href="https://forum.exbo.net/", target="_blank">STALCRAFT</a></li>
+            <!-- О СЕБЕ -->
+            <p>Мечтаю о оффере за границей</p>
 
-        <hr>
-
-    <h2>Мои увлечения :D</h2>
-    <ol>
-        <li>Игра на гитаре</li>
-        <li>Нативный оратор</li>
-        <li>Чтение книг</li>
-        <li>Путешествия</li>
-    </ol>
-
-    <hr>
-
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Google</td>
-            <td>Frontend-Software</td>
-            <td>2023-2024</td>
-        </tr>
-        <tr>
-            <td>Amazon</td>
-            <td>Frontend-Software</td>
-            <td>2020-2023</td>
-        </tr>
-    </table>
-</tbody>
-<tfoot></tfoot>
-
-<hr>
-
-    <h2> Youtube Курсы </h2>
-        <a href="YOUTUBE.html">ЖМАКАЙ</a>
-
-        <hr>
-
-        <h2>Связать со мной</h2>
-    <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" 
-        placeholder="Введите имя">
-        
-        <br><br>
-
-        <label for="mail">Эл. почта:</label>
-        <input type="email" id="mail" 
-        placeholder="Введите эл. почту">
-
-        <br><br>
-
-        <label for="textarea">Ваше сообщение: </label>
-        <br>
-        <textarea id="text"></textarea>
-
-        <br><br>
-
-        <input type="submit" value="Отправить кляп в рот">
-        
-    </form>
+            <h2>Мои контакты: </h2>
+             <a href="https://telegram.org/", target="_blank">Telegram</a>
+                 |
+            <a href="https://forum.exbo.net/", target="_blank">STALCRAFT</a>
+        </div>
+    </div>
     
 
+    <div class="card">
+    <h2>Мои увлечения :D</h2>
+        <ol class="list">
+            <li>Игра на гитаре</li>
+            <li>Нативный оратор</li>
+            <li>Чтение книг</li>
+            <li>Путешествия</li>
+         </ol>
+    </div>
+
+    <!-- Таблица с опытом работы -->
+     <div class="card">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Google</td>
+                <td>Midle Frontend-Developer</td>
+                <td>2023-2024</td>
+            </tr>
+             <tr>
+                <td>Amazon</td>
+                <td>Jumior Frontend-Software</td>
+                <td>2020-2023</td>
+                </tr>
+             </table>
+        </tbody>
+        <tfoot></tfoot>
+    </div>
+
+
+
+    <!-- Ютуб Курсы -->
+    <div class="card">
+        <h2> Youtube Курсы </h2>
+        <ul class="link-list">
+            <li>
+                <a href="https://www.youtube.com/c/TheBrowserCompany">JavaScript для Начинающих</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/c/TheBrowserCompany">HTML для Нулей</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/c/TheBrowserCompany">Основы CSS</a>
+            </li>
+        </ul>
+    </div>
+
+        <!-- Связь -->
+         <div class="card">
+
+            <div class="contacts">
+            <h2>Связаться со мной</h2>
+
+        <div class="form-group">
+            <form action="/">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" 
+            placeholder="Введите имя">
+        </div>
+        
+            <br><br>
+
+            <div class="form-group">
+            <label for="mail">Эл. почта:</label>
+            <input type="email" id="mail" 
+            placeholder="Введите эл. почту">
+            </div>
+
+            <br><br>
+
+            <div class="form-group">
+            <label for="textarea">Ваше сообщение: </label>
+            <br>
+            <textarea id="text"></textarea>
+        
+        
+            <br><br>
+        </div>  
+        <div class="submit">        
+            <input type="submit" value="Отправить сообщение">
+        </div>  
+        
+
+    </form>
+</div>
+</div>
+
+<div class="box-model">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+
+<div style="margin-bottom: 500px;"></div>
+</div>
 </body>
 </html>
